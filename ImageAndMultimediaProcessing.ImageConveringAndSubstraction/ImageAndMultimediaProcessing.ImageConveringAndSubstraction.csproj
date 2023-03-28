@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Constants.cs~RF1bc1c0a1.TMP" />
+    <None Remove="ImageTypeConverters\IImageConverter.cs~RF292ed1ea.TMP" />
+    <None Remove="Resources\Images\PNG\clean.png" />
+    <None Remove="Resources\Images\PNG\convert.png" />
+    <None Remove="Resources\Images\PNG\image.png" />
+    <None Remove="Resources\Images\PNG\open.png" />
+    <None Remove="Resources\Images\PNG\save.png" />
+    <None Remove="Resources\Images\PNG\subtract.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\Images\BMP\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Magick.NET-Q16-AnyCPU" Version="12.3.0" />
+    <PackageReference Include="Magick.NET.Core" Version="12.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ImageAndMultimediaProcessing.Lib\ImageAndMultimediaProcessing.Lib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Images\PNG\clean.png" />
+    <Resource Include="Resources\Images\PNG\convert.png" />
+    <Resource Include="Resources\Images\PNG\image.png" />
+    <Resource Include="Resources\Images\PNG\open.png" />
+    <Resource Include="Resources\Images\PNG\save.png" />
+    <Resource Include="Resources\Images\PNG\subtract.png" />
+  </ItemGroup>
+
+</Project>
