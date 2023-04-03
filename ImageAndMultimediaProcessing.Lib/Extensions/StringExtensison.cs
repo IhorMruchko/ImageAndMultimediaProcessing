@@ -1,4 +1,6 @@
 ﻿using ImageAndMultimediaProcessing.Lib.Helpers.MagickImage;
+using System;
+using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 
@@ -18,6 +20,11 @@ public static class StringExtension
     /// <returns>Formatted <see cref="string"/>.</returns>
     public static string Format(this string format, params object[] args)
         => string.Format(format, args);
+
+    public static string JoinStrings<TObjects>(this string separator, IEnumerable<TObjects> args)
+    {
+        return string.Join(separator, args);
+    }
 
     public static Bitmap? ToBitmap(this string filePath)
     {

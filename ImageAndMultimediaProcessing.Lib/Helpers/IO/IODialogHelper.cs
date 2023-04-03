@@ -8,6 +8,8 @@ public static class IODialogHelper
     public static OpenFileDialog CreateOpenFileDialog(string initialDirectory, string fileFormatFilter) 
         => new()
         {
+            Title = "Open file",
+            Multiselect = true,
             InitialDirectory = initialDirectory,
             Filter = fileFormatFilter,
         };
@@ -15,6 +17,7 @@ public static class IODialogHelper
     public static SaveFileDialog CreateSaveFileDialog(string initialDirectory, string fileFormatFilter)
         => new()
         {
+            Title = "Save file to",
             InitialDirectory = initialDirectory,
             Filter = fileFormatFilter
         };

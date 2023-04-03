@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageAndMultimediaProcessin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageAndMultimediaProcessing.ImageConveringAndSubstraction", "ImageAndMultimediaProcessing.ImageConveringAndSubstraction\ImageAndMultimediaProcessing.ImageConveringAndSubstraction.csproj", "{0F689C3E-74DA-4EBB-B511-A1F8FF2DAC4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageAndMultimediaProcessing.Console", "ImageAndMultimediaProcessing.Console\ImageAndMultimediaProcessing.Console.csproj", "{27C66A22-FEB9-4C15-8F9B-98918CB41DCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageAndMultimediaProcessing.Console", "ImageAndMultimediaProcessing.Console\ImageAndMultimediaProcessing.Console.csproj", "{27C66A22-FEB9-4C15-8F9B-98918CB41DCD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageAndMultimediaProcessing.EqulizeAndFilters", "ImageAndMultimediaProcessing.EqulizeAndFilters\ImageAndMultimediaProcessing.EqulizeAndFilters.csproj", "{98AE310F-4D30-4E45-B3E2-CACBAB733B9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageAndMultimediaProcessing.EqualizeWinForms", "ImageAndMultimediaProcessing.EqualizeWinForms\ImageAndMultimediaProcessing.EqualizeWinForms.csproj", "{77DB7488-00A6-494D-838B-4A377500DD49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{27C66A22-FEB9-4C15-8F9B-98918CB41DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27C66A22-FEB9-4C15-8F9B-98918CB41DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27C66A22-FEB9-4C15-8F9B-98918CB41DCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98AE310F-4D30-4E45-B3E2-CACBAB733B9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98AE310F-4D30-4E45-B3E2-CACBAB733B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98AE310F-4D30-4E45-B3E2-CACBAB733B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98AE310F-4D30-4E45-B3E2-CACBAB733B9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77DB7488-00A6-494D-838B-4A377500DD49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77DB7488-00A6-494D-838B-4A377500DD49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77DB7488-00A6-494D-838B-4A377500DD49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77DB7488-00A6-494D-838B-4A377500DD49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

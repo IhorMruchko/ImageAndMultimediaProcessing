@@ -398,3 +398,11 @@ FodyWeavers.xsd
 *.sln.iml
 ImageAndMultimediaProcessing.Console/ImageAndMultimediaProcessing.Console.csproj
 ImageAndMultimediaProcessing.Console/Program.cs
+ImageAndMultimediaProcessing.EqualizeWinForms/Form1.cs
+ImageAndMultimediaProcessing.EqualizeWinForms/Form1.Designer.cs
+ImageAndMultimediaProcessing.EqualizeWinForms/Form1.resx
+ImageAndMultimediaProcessing.EqualizeWinForms/ImageAndMultimediaProcessing.EqualizeWinForms.csproj
+ImageAndMultimediaProcessing.EqualizeWinForms/Program.cs
+*.bmp
+ImageAndMultimediaProcessing.ImageConveringAndSubstraction/Resources/Images/BMP/Church.bmp
+ImageAndMultimediaProcessing.ImageConveringAndSubstraction/Resources/Images/BMP/horse.bmp
